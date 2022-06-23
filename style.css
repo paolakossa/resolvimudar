@@ -1,0 +1,145 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+header{
+
+	background: url(Banner1.png);
+	width: 100%;
+	padding: 230px 0;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav { 
+
+position: absolute;
+top:150px; 
+right: 0;
+
+ }
+
+ nav li{
+
+display: inline;
+padding: 25px;
+
+}
+
+nav a{
+
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+
+	color: #FF69B4;
+	text-decoration: underline;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+
+}
+
+.principal{
+	padding: 3em 0; 
+	background: #FEFEFE;
+	width: 940px;
+ 	margin: 0 auto;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+.gif{
+	padding: 0 200px 0 200px;
+}
+
+.grafico{
+	padding: 0 200px 0 200px;
+}
+
+.oieusoupaola{
+	text-align: center;
+	margin: 0 200px;
+
+}
+
+.imagem-paolakossa{
+
+	padding: 0 350px 0 350px;
+
+
+}
+
+form{
+
+ 	margin: 40px 0;
+ 	padding: 0 400px 0 400px;
+ }
+
+ form label, form legend {
+
+ 	display: block;
+ 	font-size: 20px;
+ 	margin: 0 0 10px;
+
+ }
+
+ .enviar{
+
+ 	width: 50%;
+ 	padding:15px 0;
+ 	background:#8B008B;
+ 	font-weight:bold;
+ 	font-size:18px;
+ 	border:none;
+ 	border-radius:5px;
+ 	transition: 1s all;
+ 	cursor: pointer;
+ 	color: #FFFFFF;
+
+ }
+
+.enviar:hover{
+	background:#FF69B4;
+	transform: scale(1.2);
+
+}
+
+.instagram{
+	display:inline;
+	padding: 15px 0 0 700px;
+	background:url('https://www.iconninja.com/files/268/699/635/instagram-icon.png') center;
+	background-size: 30px 30px;
+   	background-repeat: no-repeat;
+}
+
+.linkedin{
+	display:inline;
+	padding: 50px 0 0 1000px;
+	background:url('linkedin icon icon.png') center;
+	background-size: 30px 30px;
+   	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px){
+
+header, .caixa, nav, nav li, nav a, .titulo-principal, .principal, .principal p, .gif, .grafico, .oisoupaola, .imagem-paolakossa, form, form label,
+form legend, .enviar, .enviar:hover, .instagram, .linkedin{
+
+width: auto;  
+
+}
+
+}
